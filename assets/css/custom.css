@@ -1,0 +1,309 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+/*
+* TABLA DE COLORES
+* Rosa oscuro: #c0888a
+* Rosa claro: #d3d6ab
+* Verde: #d3d6ab
+* Negro Oscuro: #333
+* Negro Claro: #777
+*/
+body {
+	font-family:'Dosis', sans-serif;
+	color:#333;
+  font-size: 1em;
+
+}
+
+mbi-copyright{
+	
+	font-family:'Dosis';
+	font-size:1.2em;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+
+
+.hcab {
+	
+	font-size:1.1em;
+	font-weight:300;
+	width: 100% ;
+  padding: 10px;
+  border-radius:5px;
+
+	}
+.sombra {
+ box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.15);	
+}
+.verde {
+	background:#d3d6ab;
+	color:#333;
+	}
+.rosa {
+	background:#dca6a8;
+	color:#FFFFFF;
+	}
+.txt-rosa {
+ color: #c0888a;
+}
+
+div.mbi-descuentos {
+  margin: 0px;  
+ font-size:0.9em;
+	
+	
+}
+
+
+a.btnmbi, a.mbi:hover {
+font-family:'Dosis',sans-serif;
+background: #dca6a8;
+color:#FFFFFF;
+border-radius:5px;
+font-size:1.2em;
+padding:10px;
+
+	
+	
+}
+
+button.btn-mbirojo {
+  color: #dca6a8;
+  background: #222222;
+border-radius:10px;
+font-size:0.8em;
+padding:15px;
+font-weight:600;
+font-size:1.2em;
+
+  
+}
+
+.mbi-gh {
+
+  font-family: 'Dosis';
+  font-size:1.4em;
+  text-decoration: none;
+}
+a.mbi, a.mbi-m900 {
+  font-family: 'Dosis';
+  font-size: 1em;
+  color:#dca6a8;
+  text-decoration: none;
+  font-weight:500;
+  }
+.mbi-cabboda {
+   background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(https://www.mibodaeninternet.com/img/cms/bg/bg-textil.png) repeat;
+	
+font-weight:500;
+text-indent:0.3em;
+height: 100%;
+    width: 100% ;
+  padding: 25px;
+  border-radius:10px;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+ 
+  }
+
+.mbi-cabsobres {
+   background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(https://www.mibodaeninternet.com/img/cms/bg/patternsobresp.png) repeat;
+	
+
+text-indent:0.3em;
+height: 100%;
+    width: 100% ;
+  padding: 25px;
+  border-radius:10px;
+	border: 2px #f9dfe2 solid;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+ 
+  }
+
+.mbi-subpanel {
+font-size:0.9em;
+text-indent:0.3em;
+line-height:1.4;	
+  font-weight: 400;
+  }
+
+
+/* CABECERAS ####################*/
+table.mbi-table {
+	 border: 1px solid #dca6a8; 
+	color:#dca6a8;
+	font-size:1em;
+	font-weight:900;
+	width=100%;
+	
+
+}
+
+h1.mbi-header, h2.mbi-header, h3.mbi-header, h4.mbi-header, h5.mbi-header {
+   
+	font-family: 'Dosis';  
+    text-transform: none;
+	color:#777;
+	font-size:1.2em;
+   }
+h1.mbi-m900, h2.mbi-m900, h3.mbi-m900, h4.mbi-m900, h5.mbi-m900, p.mbi-m900 {
+	font-family: 'Dosis';		
+	color:#777;
+	
+}
+
+
+.mbi-cabtextil {
+/*background: url(https://www.mibodaeninternet.com/img/cms/bg-textil.png) repeat;*/
+background-color: #dca6a8;
+    height: 100%;
+    width: 100% ;
+  padding: 15px;
+  border-radius:10px;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+ 
+ 
+}
+
+.mbi-cabcomu {
+background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(https://www.mibodaeninternet.com/img/cms/bg/web-dots-fondogris.jpg) repeat;
+text-indent:0.3em;
+height: 100%;
+    width: 100% ;
+  padding: 25px;
+  border-radius:10px;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.85);
+
+}
+
+.mbi-cabbau {
+background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url(https://www.mibodaeninternet.com/img/cms/bg/pattenmbigris.png) repeat;
+text-indent:0.3em;
+height: 100%;
+    width: 100% ;
+  padding: 25px;
+  border-radius:10px;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+	border: 1px solid #d5d5d5;	
+}
+/* PANEL NEGRO*/
+div.mbi-pannegro {
+  color:#FFFFFF;
+  font-weight:400;
+  margin: 10px 10px 10px 10px;  
+  padding: 15px;
+  /*background: rgba(121,83,169,0.7);*/
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+ }
+ div.mbi-panrojo {
+  color:#FFFFFF;
+  font-weight:600;
+  margin: 10px 10px 10px 10px;  
+  padding: 15px;
+ border-radius: 15px;
+	 background: #dca6a8;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+ }
+ /* PANEL COLOR WEB*/
+ div.mbi-paninfo {
+  
+  font-weight:400;
+  margin: 10px 10px 10px 10px;  
+  padding: 15px;
+  background:#dca6a8;
+  border-radius: 15px;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+ }
+ /* PANEL BLANCO CON TRANASPARENCIA */
+ div.mbi-panblancotrans {
+  /*color:#000000;*/
+	color:#333;
+	margin:5px; 
+  padding: 10px;
+  background: rgba(255,255,255,0.4);
+  border-radius: 15px;
+	border: 1px #676767 solid;
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+ }
+
+div.categoria {
+  margin: 10px 10px 10px 10px;  
+  /*padding: 15px;*/
+  color:#000000;
+ 
+}
+/* PANEL BLANCO   ------------------*/
+div.mbi-panblanco {
+
+  background:#FFFFFF;
+  margin: 10px 10px 10px 10px;  
+  padding: 15px;
+  color:#000000;
+  border-radius: 15px;
+}
+
+div.mbi-pantrans {
+
+  
+  margin: 10px 10px 10px 10px;  
+  padding: 15px;
+  
+  
+}
+
+img.cat-banner {
+  margin: 5px;
+  -webkit-border-radius: 3px 5px 1px 4px; /* recuerda la primera frase */
+  -moz-border-radius: 4px; /* si quieres todas las esquinas iguales */
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+  -moz-box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+  box-shadow: 7px 6px 7px -4px rgba(0,0,0,0.63);
+  
+}
+
+.mbi-blanco {
+
+  color:#FFFFFF;
+}
+
+.mbi-xl {
+
+  font-size: 1.3em;
+}
+
+button.mbi {
+  
+color:#dca6a8;  
+font-size:1em;
+	font-weight:700;  
+  text-decoration: none;
+  border: solid 1px #dca6a8;
+  padding: 6px;
+  background: rgba(255,255,255,0.5);
+   /* si quieres todas las esquinas iguales */
+  border-radius: 5px;
+
+  }
+
+
+.btn {
+
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  background:#dca6a8;
+  color:#FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+
+/* ########################################################## */
+

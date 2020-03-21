@@ -219,9 +219,8 @@
                     
                     <h3 class="hcab rosa sombra">Personalización</h3>
                     <p>Este diseño dispone de un Formulario, puedes descargarlo y enviarnoslo o bien rellenar los campos aquí y dar a guardar antes de añadir al carrito.</p>
-                    </div>
-                    <div class="col">
                     <p align="center">  <a href="https://www.mibodaeninternet.com/recursos/descarga/invitacion_comunion_formulario.docx" class="btnmbi">Descarga Formulario</a></p>
+
                     
             {/if}
 

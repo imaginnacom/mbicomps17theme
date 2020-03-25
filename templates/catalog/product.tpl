@@ -210,17 +210,7 @@
                                     {include file='catalog/_partials/product-discounts.tpl'}
             {/block}
                 
-            {if $product.is_customizable && count($product.customizations.fields)}
-
-            {** FORMULARIOS PERSONALIZACIÓN *}
-                {include file='catalog/_partials/product-comunion.tpl'}
-                {include file='catalog/_partials/product-recursos.tpl'}
-           
-                    
-           
-                                    
-            {/if}
-
+            
                 {if $iqitTheme.pp_accesories == 'sidebar'}
                     {block name='product_accessories_sidebar'}
                         {if $accessories}
@@ -237,7 +227,17 @@
                         {/if}
                     {/block}
                 {/if}
+                
+                {if $product.is_customizable && count($product.customizations.fields)}
 
+                     {** FORMULARIOS PERSONALIZACIÓN *}
+                {include file='catalog/_partials/product-comunion.tpl'}
+                {include file='catalog/_partials/product-recursos.tpl'}
+           
+                                    
+                {/if}
+
+                
                 {hook h='displayRightColumnProduct'}
 
             </div>
